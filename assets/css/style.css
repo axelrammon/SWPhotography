@@ -1,6 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+a {
+  font: normal 700 1em 'Comfortaa', sans-serif;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+#cabecalho {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+}
+
+#navegacao .ul_nav {
+  display: flex;
+}
+
+#navegacao ul li {
+  margin: 10px;
+}
+
+/* ########## */
+
+#apresentacao {
+  height: 90vh;
+  background-color: blueviolet;
+  color: #ecf0f1;
+}
