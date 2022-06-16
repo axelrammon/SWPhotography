@@ -11,6 +11,14 @@ a {
   text-decoration: none;
 }
 
+h1 {
+  font: normal 700 2em 'Comfortaa', sans-serif;
+}
+
+p {
+  font: normal 700 1em 'Comfortaa', sans-serif;
+}
+
 ul {
   list-style: none;
 }
@@ -34,6 +42,20 @@ ul {
 
 #apresentacao {
   height: 90vh;
-  background-color: blueviolet;
+  background-image: url(/assets/imgs/presentation.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #ecf0f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#apresentacao h1 {
+  margin: 10px 0;
+}
+
+#apresentacao p {
+  text-align: center;
 }
