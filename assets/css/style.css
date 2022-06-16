@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 a {
   font: normal 700 1em 'Comfortaa', sans-serif;
   text-decoration: none;
@@ -28,6 +32,10 @@ ul {
   justify-content: center;
   align-items: center;
   height: 10vh;
+}
+
+.dark_mode {
+  margin: 0 10px;
 }
 
 #navegacao .ul_nav {
@@ -58,4 +66,42 @@ ul {
 
 #apresentacao p {
   text-align: center;
+}
+
+/* ############# */
+
+#trabalhos:target {
+  scroll-margin-bottom: 2em;
+}
+
+.container {
+  display: grid;
+  text-align: center;
+}
+
+.container .item {
+  margin: 15px 0;
+}
+
+.container .item img {
+  width: 350px;
+  border-radius: 50px 20px;
+}
+
+
+
+
+
+
+
+@media (min-width: 760px) {
+  .container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1096px) {
+  .container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
