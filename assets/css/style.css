@@ -73,9 +73,9 @@ ul {
 
 #apresentacao {
   height: 90vh;
-  background-image: url('/assets/imgs/um.JPG');
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: url('/assets/imgs/um.JPG') center no-repeat;
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
   color: #ecf0f1;
   display: flex;
   justify-content: center;
