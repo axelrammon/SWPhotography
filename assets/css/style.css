@@ -34,7 +34,7 @@ ul {
 
 #btn-topo {
   position: fixed;
-  top: 740px;
+  top: 740px !important;
   right: 10px;
   padding: 10px;
   border-radius: 100%;
