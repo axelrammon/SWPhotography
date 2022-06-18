@@ -13,7 +13,7 @@ html {
 a {
   font: normal 700 1em 'Comfortaa', sans-serif;
   text-decoration: none;
-  color: blue;
+  color: #ecf0f1;
 }
 
 h1 {
@@ -32,6 +32,10 @@ ul {
   list-style: none;
 }
 
+.material_icons {
+  color: #ecf0f1;
+}
+
 #btn-topo {
   position: fixed;
   top: 740px !important;
@@ -39,7 +43,7 @@ ul {
   padding: 10px;
   border-radius: 100%;
   border: none;
-  background-color: chocolate;
+  background-color: #4D4C7D;
 }
 
 #btn-topo a {
@@ -55,6 +59,7 @@ ul {
   justify-content: center;
   align-items: center;
   height: 10vh;
+  background-color: #4D4C7D;
 }
 
 .dark_mode {
@@ -72,10 +77,10 @@ ul {
 /* ########## */
 
 #apresentacao {
-  height: 90vh;
-  background: #00F260;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #0575E6, #00F260);
+  height: 60vh;
+  background: #827397;  /* fallback for old browsers */
+  /* background: -webkit-linear-gradient(to right, #0575E6, #00F260);  Chrome 10-25, Safari 5.1-6 */
+  /* background: linear-gradient(to right, #0575E6, #00F260); */
   /* color: #ecf0f1; */
   display: flex;
   justify-content: center;
@@ -98,7 +103,7 @@ ul {
 }
 
 #trabalhos {
-  background-color: #d2dcd3;
+  background-color: #827397;
 }
 
 .container_trabalhos {
@@ -123,7 +128,7 @@ ul {
 
 #equipe {
   height: 70vh;
-  background-color: #fef2f2;
+  background-color: #ecf0f1;
 }
 
 .container {
@@ -155,7 +160,7 @@ ul {
 }
 
 #contato {
-  background-color: #e8eab9;
+  background-color: #ecf0f1;
   height: 40vh;
 }
 
@@ -198,32 +203,58 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #e8eab9;
+  background-color: #363062;
 }
 
 /* ############# */
 
 @media (min-width: 760px) {
-  .container {
+
+  #btn-topo {
+    top: 500px !important;
+  }
+
+  .container_trabalhos {
     grid-template-columns: 1fr 1fr;
   }
 
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container .item .img_equipe {
+    width: 200px;
+  }
+
   #equipe {
-    height: 50vh;
+    height: 40vh;
+  }
+
+  #contato {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 20vh;
   }
 }
 
 @media (min-width: 1096px) {
+
+  #btn-topo {
+    top: 560px !important;
+    right: 20px;
+  }
+
   .container_trabalhos {
     grid-template-columns: 1fr 1fr 1fr;
   }
 
   #equipe {
-    height: 60vh;
+    height: 45vh;
   }
 
-
-  
   .container .item .img_equipe {
     width: 150px;
   }
@@ -236,7 +267,6 @@ ul {
     content: "> ";
   }
 }
-
 
 
 
